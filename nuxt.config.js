@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'prufcd',
+    title: 'Crédito Digital Compensar',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
@@ -13,11 +13,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -33,8 +34,14 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/gtm', 'bootstrap-vue/nuxt'
   ],
-
+  // Config Google Tag Manager Tag
+  gtm: {
+    id: 'GTM-WWQ69LL',
+    enabled: true, 
+    debug: true
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
