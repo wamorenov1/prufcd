@@ -1,0 +1,59 @@
+.header {
+    -webkit-box-shadow: 0px 2px 5px 0px rgb(224, 224, 224); 
+    -moz-box-shadow: 0px 2px 5px 0px rgb(224, 224, 224); 
+    box-shadow: 0px 2px 5px 0px rgb(224, 224, 224);
+    padding: 0rem;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo img  {
+    width: 150px;
+}
+.login-button {
+    display: flex;
+    position: relative
+}
+
+.login-button__letter {
+    background-color: #f60;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    padding: .6rem;
+    position: absolute;
+    border-radius: 3rem
+}
+
+.login-button__letter p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400
+}
+
+.login-button__dropdown {
+    padding: .5rem;
+    width: 70px;
+    height: 45px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    left: 0px;
+    border-radius: 3rem
+}
+
+.login-button__dropdown img {
+    width: 15px
+}
+
+.login-button__status {
+    background-color: #2bbf21;
+    position: absolute;
+    padding: .38rem;
+    border-radius: 3rem;
+    bottom: 0;
+    left: 30px
+}
