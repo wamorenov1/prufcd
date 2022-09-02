@@ -6,6 +6,7 @@
     position: relative;
     padding: .8rem;
     border-radius: .8rem;
+    margin-bottom: 2rem;
 }
 .page__title .decoration {
     position: absolute;

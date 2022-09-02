@@ -1,0 +1,17 @@
+.breadcrumb {
+    background-color: transparent;
+    margin: 0;
+    padding: 1.5rem 0rem;
+    font-weight: var(--light);
+    color: var(--black-300);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content:url(~/assets/images/left-breadcrumb.svg);
+    font-weight: var(--bold);
+}
+.breadcrumb-item img {
+    padding-right: .5rem;
+}
