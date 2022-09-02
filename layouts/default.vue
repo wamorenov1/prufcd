@@ -1,12 +1,21 @@
 <template>
   <div>
     <Header-bar></Header-bar>
-    <Nuxt />
+    <main>
+      <div class="container">
+        <Breadcrum></Breadcrum>
+        <Nuxt />
+      </div>
+    </main>
+    
+    
   </div>
 </template>
 
 <script>
+import Breadcrum from '~/components/Breadcrum.vue'
 export default {
+  components: { Breadcrum },
 
 }
 </script>
